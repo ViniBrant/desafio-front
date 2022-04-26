@@ -1,13 +1,12 @@
-import React from 'react';
-import './App.css';
+import { Router } from "./router";
+import { FormProvider } from "./contexts/FormContext";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        Olá mundo!!
-      </header>
-    </div>
+const App = () => {
+  return(
+    <FormProvider>
+      <Router />
+    </FormProvider>
+    
   );
 }
 
