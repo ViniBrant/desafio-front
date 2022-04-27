@@ -4,19 +4,22 @@ import { Theme } from '../../components/Theme';
 import logo from '../../assets/logo.png' 
 
 
-export const Home = () => {
+export const FimCad = () => {
     const navigate = useNavigate();
 
-    const handleNextStep = () => { navigate('/cadastro1'); }
+    const handlePreviousStep = () => { navigate('/edit'); }
+    const handleNextStep = () => { navigate('/'); }
 
 
     return(
         
         <Theme>
             <C.Container>
-                <h1>Olá, Bem vindo!</h1>
                 <img src={logo} className="App-logo" alt="logo" />
-                <C.Button onClick={handleNextStep}>Cadastrar</C.Button>
+                <h2>Cadastro realizado com sucesso</h2>
+
+                <C.BackButton onClick={handlePreviousStep}>Editar cadastro</C.BackButton>
+                <C.Button onClick={handleNextStep}>Início</C.Button>
             </C.Container>
         </Theme>
         

@@ -6,6 +6,7 @@ export const Background = styled.div`
 
 export const Card = styled.div`
     position: absolute;
+    display: flex;
     margin: auto;
     top: 20px;
     right: 0;

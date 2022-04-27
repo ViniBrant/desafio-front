@@ -4,15 +4,15 @@ import { createContext, ReactNode, useContext, useReducer } from 'react';
 type State = {
     currentStep: number;
     nome: string;
-    telefone: number;
+    telefone: string;
     email: string;
     nacionalidade: string;
-    cep: number;
+    cep: string;
     estado: string;
     cidade: string;
     rua: string;
     bairro: string;
-    numero: number;
+    numero: string;
     complemento: string;
 }
 type Action = {
@@ -29,15 +29,15 @@ type FormProviderProps = {
 const initialData: State = {
     currentStep: 0,
     nome: '',
-    telefone: 0,
+    telefone: '',
     email: '',
     nacionalidade: '',
-    cep: 0,
+    cep: '',
     estado: '',
     cidade: '',
     rua: '',
     bairro: '',
-    numero: 0,
+    numero: '',
     complemento: ''
 }
 
