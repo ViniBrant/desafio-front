@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    overflow-y: auto;
     margin-top: 100px;
     padding: 10px;
     text-align: center;
@@ -46,6 +47,9 @@ export const Area5 = styled.div`
         width: 100%;
     }
 `;
+export const Area6 = styled.div`
+    
+`;
 
 export const Label = styled.div`
 font-size: 13px;
@@ -69,9 +73,7 @@ text-align: center;
 
 export const Button = styled.button`
     width: 150px;
-    position: fixed;
-    bottom: 30px;
-    margin-left: -50px;
+    margin-left: 0px;
     background-color: #20B2AA;
     color: #FFF;
     font-size: 14px;

@@ -100,10 +100,10 @@ export const Edit = () => {
     return(
         <Theme>
             <C.Container>
-            <p>Editar cadastro</p>
+            <h3>Editar cadastro</h3>
 
                     <C.Label>
-                        Nome = {state.nome}
+                        Nome 
                         <input
                             type="text"
                             autoFocus
@@ -114,9 +114,8 @@ export const Edit = () => {
 
                 <C.Area1>
                     
-
                     <C.Label>
-                        Telefone = {state.telefone}
+                        Telefone 
                         <input
                             type="text"
                             value={state.telefone}
@@ -125,7 +124,7 @@ export const Edit = () => {
                     </C.Label>
 
                     <C.Label>
-                        Email = {state.email}
+                        Email 
                         <input
                             type="email"
                             value={state.email}
@@ -137,7 +136,7 @@ export const Edit = () => {
                 <C.Area2>
                     
                     <C.Label>
-                        Nacionalidade = {state.nacionalidade}
+                        Nacionalidade 
                         <input
                             type="text"
                             value={state.nacionalidade}
@@ -146,7 +145,7 @@ export const Edit = () => {
                     </C.Label>
 
                     <C.Label>
-                        CEP = {state.cep}
+                        CEP 
                         <input
                             type="text"
                             value={state.cep}
@@ -158,7 +157,7 @@ export const Edit = () => {
                 <C.Area3>
                     <div>
                         <C.Label>
-                            Estado = {state.estado}
+                            Estado 
                             <input
                                 type="text"
                                 value={state.estado}
@@ -169,7 +168,7 @@ export const Edit = () => {
                 
                     <div>
                         <C.Label>
-                            Cidade = {state.cidade}
+                            Cidade 
                             <input
                                 type="text"
                                 value={state.cidade}
@@ -182,7 +181,7 @@ export const Edit = () => {
                 <C.Area4>
                     <div>
                         <C.Label>
-                            Rua = {state.rua}
+                            Rua 
                             <input
                                 type="text"
                                 value={state.rua}
@@ -193,7 +192,7 @@ export const Edit = () => {
 
                     <div>
                         <C.Label>
-                            Bairro = {state.bairro}
+                            Bairro 
                             <input
                                 type="text"
                                 value={state.bairro}
@@ -207,7 +206,7 @@ export const Edit = () => {
                 <C.Area5>
                     <div>
                         <C.Label>
-                            Numero = {state.numero}
+                            Numero 
                             <input
                                 type="text"
                                 value={state.numero}
@@ -218,7 +217,7 @@ export const Edit = () => {
 
                     <div>
                         <C.Label>
-                            Complemento = {state.complemento}
+                            Complemento 
                             <input
                                 type="text"
                                 value={state.complemento}
@@ -228,7 +227,8 @@ export const Edit = () => {
                     </div>
                 </C.Area5>
 
-                <C.Button onClick={handleNextStep}>Concluir</C.Button>
+                <C.Area6><C.Button onClick={handleNextStep}>Concluir</C.Button></C.Area6>
+                
                 
             </C.Container>
         </Theme>

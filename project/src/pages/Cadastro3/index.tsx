@@ -81,7 +81,7 @@ export const Cadastro3 = () => {
                 <p> Agora precisamos que você nos passe suas informações residenciais </p>
 
                 <C.Label>
-                    CEP = {state.cep}
+                    CEP 
                     <input
                         type="text"
                         autoFocus
@@ -93,7 +93,7 @@ export const Cadastro3 = () => {
                 <C.Area1>
                     <div>
                         <C.Label>
-                            Estado = {state.estado}
+                            Estado
                             <input
                                 type="text"
                                 value={state.estado}
@@ -104,7 +104,7 @@ export const Cadastro3 = () => {
                 
                     <div>
                         <C.Label>
-                            Cidade = {state.cidade}
+                            Cidade
                             <input
                                 type="text"
                                 value={state.cidade}
@@ -117,7 +117,7 @@ export const Cadastro3 = () => {
                 <C.Area2>
                     <div>
                         <C.Label>
-                            Rua = {state.rua}
+                            Rua 
                             <input
                                 type="text"
                                 value={state.rua}
@@ -128,7 +128,7 @@ export const Cadastro3 = () => {
 
                     <div>
                         <C.Label>
-                            Bairro = {state.bairro}
+                            Bairro 
                             <input
                                 type="text"
                                 value={state.bairro}
@@ -142,7 +142,7 @@ export const Cadastro3 = () => {
                 <C.Area3>
                     <div>
                         <C.Label>
-                            Numero = {state.numero}
+                            Numero 
                             <input
                                 type="text"
                                 value={state.numero}
@@ -153,7 +153,7 @@ export const Cadastro3 = () => {
 
                     <div>
                         <C.Label>
-                            Complemento = {state.complemento}
+                            Complemento 
                             <input
                                 type="text"
                                 value={state.complemento}

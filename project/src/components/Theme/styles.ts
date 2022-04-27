@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 export const Background = styled.div`
-    background: #000000;
+    background: #DCDCDC;
+    min-height: 100vh;
+    margin: auto;
 `;
 
 export const Card = styled.div`
+    flex-direction: column;
     position: absolute;
     display: flex;
     margin: auto;
@@ -13,11 +16,11 @@ export const Card = styled.div`
     bottom: 20px;
     left: 0;
     width: 500px;
-    height: auto;
+    min-height: 90vh;
+    height: 500px;
     border-radius: 10px;
     box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
     background: #F8F8FF;
-    overflow: hidden;
 `;
 
 export const Top = styled.div`
@@ -26,6 +29,7 @@ export const Top = styled.div`
     top: 0;
     right: 0;
     left: 0;
+    border-radius: 10px;
     width: 500px;
     height: 80px;
     background: #20B2AA;

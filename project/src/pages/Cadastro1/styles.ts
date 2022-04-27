@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    padding: 70px;
     margin: auto;
+    min-height: 90vh;
     text-align: center;
 `;
 
 export const Button = styled.button`
-    position: fixed;
-    bottom: 30px;
-    margin-left: -50px;
+    margin-left: 0px;
     background-color: #20B2AA;
     color: #FFF;
     font-size: 14px;
@@ -39,5 +39,7 @@ padding: 10px 0;
 `;
 
 export const FormArea = styled.div`
-    padding: 50px 0;
+    padding: 10px 0;
+    min-height: 90vh;
+    max-height: 90px;
 `;

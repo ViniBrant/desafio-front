@@ -31,22 +31,24 @@ export const Cadastro2 = () => {
 
     return(
         <Theme>
+            
             <C.Container>
                 <h4> Qual o seu CEP ? </h4>
                 <p> Agora precisamos que você nos passe suas informações residenciais </p>
 
                 <C.Label>
-                    CEP = {state.cep}
+                    CEP
                     <input
                         type="text"
                         autoFocus
                         value={state.cep}
                         onChange={handleCEPChange}
                     />
-                </C.Label>
 
                 <C.BackButton onClick={handlePreviousStep}>Voltar</C.BackButton>
                 <C.Button onClick={handleNextStep}>Próximo</C.Button>
+                </C.Label>
+
             </C.Container>
         </Theme>
     )

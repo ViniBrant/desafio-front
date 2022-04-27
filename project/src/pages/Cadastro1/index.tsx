@@ -48,11 +48,10 @@ export const Cadastro1 = () => {
     return(
         <Theme>
             <C.Container>
-                <p>Cadastro 1</p>
-
+                <h3>informações básicas</h3>
                 <C.FormArea>
                     <C.Label>
-                        Nome = {state.nome}
+                        Nome
                         <input
                             type="text"
                             autoFocus
@@ -62,7 +61,7 @@ export const Cadastro1 = () => {
                     </C.Label>
 
                     <C.Label>
-                        Telefone = {state.telefone}
+                        Telefone
                         <input
                             type="text"
                             value={state.telefone}
@@ -71,7 +70,7 @@ export const Cadastro1 = () => {
                     </C.Label>
 
                     <C.Label>
-                        Email = {state.email}
+                        Email
                         <input
                             type="email"
                             value={state.email}
@@ -80,16 +79,17 @@ export const Cadastro1 = () => {
                     </C.Label>
 
                     <C.Label>
-                        Nacionalidade = {state.nacionalidade}
+                        Nacionalidade
                         <input
                             type="text"
                             value={state.nacionalidade}
                             onChange={handleNacionalidadeChange}
                         />
                     </C.Label>
+                    <C.Button onClick={handleNextStep}>Próximo</C.Button>
                 </C.FormArea>
 
-                <C.Button onClick={handleNextStep}>Próximo</C.Button>
+                
             </C.Container>
         </Theme>
     )

@@ -55,9 +55,7 @@ text-align: center;
 
 export const Button = styled.button`
     width: 150px;
-    position: fixed;
-    bottom: 30px;
-    margin-left: 250px;
+    margin-left: 50px;
     background-color: #20B2AA;
     color: #FFF;
     font-size: 14px;
@@ -72,9 +70,7 @@ export const Button = styled.button`
 
 export const BackButton = styled.button`
     width: 150px;
-    position: fixed;
-    bottom: 30px;
-    margin-left: 100px;
+    margin-left: 65px;
     background-color: #20B2AA;
     color: #FFF;
     font-size: 14px;
