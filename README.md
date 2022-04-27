@@ -1,54 +1,41 @@
-# Teste prático Front-End
-
-Este teste é desenvolvido pela [Qesh](https://www.linkedin.com/company/qesh-payments/) e tem como objetivo avaliar tecnicamente o candidato para a vaga de Front-End.
-
-
-## **Instruções**
-
-Você deverá criar um `fork` deste repositório. Nesse fork, você encontrará a pasta `project`. 
-Todo o código fonte deve ser colocado dentro da pasta `project`.
-
-O repositório deverá ser público e não poderá ter nenhuma menção à Qesh.
-
-Você terá **48h** para realizar o teste, consideraremos até onde você conseguir chegar com o código.
-
-> Lembrando que não é necessária a conclusão do teste para envio do código.
-
-Ao finalizar, responda o email referente ao teste com o link do seu repositório.
-
 ## **Sobre o teste**
 
-Você desenvolverá um aplicativo de criação perfil de usuário, que exibirá suas informações básicas e que poderão ser editáveis posteriormente.
+O objetivo do teste era criar uma aplicação para criação de perfis, que exibissem algumas informações básicas e que também fosse possivel fazer a edição posteriormente
 
-A informações deverão ser mokadas, ou seja, não deverão ser obtidas de um banco de dados.
+### **Páginas do projeto**
 
-## **Layout do projeto**
+O projeto se inicia na home, e então passa por 3 paginas onde são inseridos os dados, após a conclusão existe a opção de finalizar e voltar para home ou editar os dados so registro  
 
-Não há um modelo exato de como deve ficar o aplicativo final, mas criamos um [layout](https://www.figma.com/file/3avD92FrmZ8mmf8oqjdY7D/teste-frontend?node-id=4449%3A28922) de exemplo para nortear o desenvolvimento.
+## **Bibliotecas Usadas**
 
+- styled-components(estilização)
+- react-router-dom(rotas)
+- contextAPI(armazenar os dados)
 
-## **O que nós esperamos do teste**
+### **Pendências do desenvolvimento**
 
-- Demonstrar conhecimento de React.js
-- Demonstrar conhecimento de TypeScript
-- Boas práticas de programação
-- Um README com informações sobre o projeto e guia de uso
-- Histórico de commits do git
-- Organização, semântica, estrutura, legibilidade, manutenibilidade do seu código
-- Alcance dos objetivos propostos
-- Responsividade
+1 - Consumir a API Viacep para inclusão dos dados residenciais
+2 - Corrigir detalhes visuais e melhorar a responsividade
 
-## **Seria ótimo ver no seu teste**
+### **Como rodar localmente**
 
-- Testes unitários
-- Documentação do código
+#### Digite o comando abaixo para clonar o repositório:
+```bash
+git clone https://github.com/ViniBrant/desafio-front.git
+```
 
-## **Seria impressionante ver no seu teste**
+#### Ache o projeto localmente
+```bash
+cd Desafio-front
+cd project
+```
 
-- Animações e efeitos
-- Ver o código em produção (Github Pages, Heroku, Netlify)
+#### Instale as dependências
+```bash
+npm install
+```
 
-## **Não seria bom**
-
-- Descobrir que não foi você quem fez seu teste
-- Ver commits grandes, sem muita explicação nas mensagens em seu repositório
+#### Inicie o projeto
+```bash
+npm start
+```
